@@ -6,7 +6,7 @@ calcular_mitjana <- function(df) {
 print(paste0("Mitjana calculada correctament"))
 
 calcular_mediana <- function(df) {
-  median(df$valor, na.rm = TRUE)
+  median(df$valor, na.rm = FALSE)
 }
 
 calcular_variancia <- function(df) {
