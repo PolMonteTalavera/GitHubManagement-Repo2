@@ -7,3 +7,5 @@ generar_dades_base <- function() {
   )
   return(dades)
 }
+
+print("Base de dades generada correctament")

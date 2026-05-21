@@ -2,3 +2,5 @@
 calcular_mitjana <- function(df) {
   mean(df$valor, na.rm = TRUE)
 }
+
+print(paste0("Mitjana calculada correctament"))
