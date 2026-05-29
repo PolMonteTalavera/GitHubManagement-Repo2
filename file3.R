@@ -7,3 +7,6 @@ generar_histograma <- function(df) {
     geom_histogram(fill = "blue", bins = 30) +
     theme_minimal()
 }
+
+
+print("Canvis")
