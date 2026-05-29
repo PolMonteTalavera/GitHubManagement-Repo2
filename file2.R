@@ -4,7 +4,7 @@ calcular_mitjana <- function(df) {
 }
 
 calcular_variancia <- function(df) {
-  var(df$valor, na.rm = FALSE)
+  var(df$valor, na.rm = FALSE) # Comentari
 }
 
 print(paste0("Mitjana calculada correctament"))
