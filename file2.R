@@ -13,6 +13,8 @@ calcular_mediana <- function(df) {
   median(df$valor, na.rm = FALSE)
 }
 
+print("Hola")
+
 calcular_variancia <- function(df) {
   var(df$valor, na.rm = TRUE)
 }
