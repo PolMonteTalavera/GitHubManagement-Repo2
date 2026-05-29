@@ -6,7 +6,7 @@ generar_histograma <- function(df) {
     # Comentari
     geom_histogram(fill = "blue", bins = 30) +
     theme_minimal()
-}
+} # Comentari 3
 # Comentari 2
 
 print("Canvis")
