@@ -3,6 +3,7 @@ library(ggplot2)
 
 generar_histograma <- function(df) {
   ggplot(df, aes(x = valor)) +
+    # Comentari 4
     # Comentari
     geom_histogram(fill = "blue", bins = 30) +
     theme_minimal()
